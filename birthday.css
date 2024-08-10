@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(ultah.jpg);
+}
+.container{
+    border: 1px solid rgb(225, 225, 225, .5);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    width: 900px;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+.ucapan{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px 0 0 20px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gambar img{
+    position: relative;
+    max-width: 40%;
+    background-image: none;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.katakata{
+    display: flex;
+    flex-direction: column;
+}
+
+.namadia{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: white;
+}
+
+.kata{
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 90%;
+    font-size: 30px;
+}
+
+.dari{
+    color: white;
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+
+}

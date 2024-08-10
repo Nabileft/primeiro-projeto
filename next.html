@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="birthday.css">
+    <title>birthday</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <h1 class="ucapan">HAPPY BIRTHDAY!</h1>
+            <div class="gambar">
+                <div class="katakata">
+                    <h2 id="welcome-message" class="namadia"></h2>
+                    <span class="kata">All laughs and tears we share make me feel awesome. I am so thankful for our true friendship. Hope your day is always amazing as you are. Happy birthday dear amigo!</span>
+                    <span class="dari">-nabil</span>
+                </div>
+                <img src="pngegg (1).png"> 
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const name = localStorage.getItem("name");
+        document.getElementById('welcome-message').textContent = name;
+    </script>
+
+</body>
+</html>
